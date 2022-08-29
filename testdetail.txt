@@ -1,0 +1,51 @@
+{
+
+"fw_type": "nic",
+
+"method" : "inband",
+
+"upgrade_to": "220.0.75.0",
+
+"downgrade_to": "216.2.318.0",
+
+"cycle": 3
+
+}
+
+{
+
+"fw_type": "nic",
+
+"method" : "inband",
+
+"upgrade_to": "220.0.83.0",
+
+"downgrade_to": "216.2.318.0",
+
+"cycle": 11
+
+}
+
+{
+
+"misc_client_args": {
+
+"parallel": 16
+
+},
+
+"bidir" : true,
+
+"mtu": 9000,
+
+"reset_mtu": 1500,
+
+"pass_bandwidth_ratio": 0.33,
+
+"iperf_version": 2,
+
+"iperf_traffic_eth_interfaces": ["eth1"],
+
+"runtime": 600
+
+}
